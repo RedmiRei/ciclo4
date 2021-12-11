@@ -5,7 +5,7 @@
 package com.ciclocuatro.retos.reto.repository;
 
 import com.ciclocuatro.retos.reto.model.User;
-import com.ciclocuatro.retos.reto.repository.crud.UserCrudRepository;
+import com.ciclocuatro.retos.reto.crud.UserCrudRepository;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author andre
+ * @author Reinaldo
  */
 @Repository
 public class UserRepository {

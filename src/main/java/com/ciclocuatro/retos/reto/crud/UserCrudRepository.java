@@ -1,4 +1,4 @@
-package com.ciclocuatro.retos.reto.repository.crud;
+package com.ciclocuatro.retos.reto.crud;
 
 import com.ciclocuatro.retos.reto.model.User;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
 /**
  *
- * @author andre
+ * @author Reinaldo
  */
 public interface UserCrudRepository extends CrudRepository<User, Integer> {
 

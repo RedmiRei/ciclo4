@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  *
- * @author andre
+ * @author Reinaldo
  */
 @RestController
 @RequestMapping("api/user")
